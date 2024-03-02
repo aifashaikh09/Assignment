@@ -170,7 +170,7 @@ public class smartcalculator
 		int i;
 		for (i=1; i<=num;i++)
 		{
-			fact = fact * num;
+			fact = fact * i;
 		}
 		return fact;
 	}
